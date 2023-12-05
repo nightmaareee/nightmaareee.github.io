@@ -1,7 +1,10 @@
 body {
     border: 0;
     margin: 0;
-    background-color:rgb(255, 249, 238);
+    background: rgb(2,0,36);
+    background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: system-ui;
+    color: rgb(229, 241, 255);
 }
 
 .frame {
@@ -13,14 +16,9 @@ body {
 }
 
 .container{
-    background-color:rgb(255, 253, 251);
     width: 70%;
-    border: 1px solid #101010;
     border-radius: 12px;
     padding: 3%;
-    box-shadow: 7px 7px 28px -13px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 7px 7px 28px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 7px 28px -13px rgba(0,0,0,0.75);
 }
 
 .message {
@@ -29,4 +27,8 @@ body {
 
 .dedicatory {
     text-align: justify;
+}
+
+.signature {
+    text-align: right;
 }
